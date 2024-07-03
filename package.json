@@ -9,7 +9,7 @@
     "./locales/nb-NO.json": "./src/locales/nb-NO.json"
   },
   "author": "Direktoratet for samfunnssikkerhet og beredskap",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@fontsource/roboto": "5.0.13",
     "@fontsource/roboto-slab": "5.0.20"
