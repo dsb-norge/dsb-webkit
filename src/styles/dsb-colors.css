@@ -1,0 +1,73 @@
+:root {
+  /*
+    Regular / Light mode
+  */
+  --dsb-color-primary: #FF5600;
+  --dsb-color-secondary:  #4F4F4F;
+  --dsb-color-accent: #82B1FF;
+  --dsb-color-dark: #1D1D1D;
+  --dsb-color-positive: #4CAF50;
+  --dsb-color-negative: #FF5252;
+  --dsb-color-warning: #FFC107;
+  --dsb-color-info: #039BE5;
+  --dsb-color-text: #333333;
+  --dsb-color-bg-1: #FFFFFF;  /* Page background */
+  --dsb-color-bg-2: #e2e2e2;  /* Footer, toolbar, etc. */
+
+  /*
+    Dark mode colors
+  */
+  --dsb-dark-color-text: #E5E5E5;
+  --dsb-dark-color-bg-1: #1D1D1D;
+  --dsb-dark-color-bg-2: #2d2d2d;
+}
+
+/*
+  Dark mode
+*/
+/* If HTML element has class 'dark' */
+:root.dark {
+  color-scheme: dark;
+  --dsb-color-text: var(--dsb-dark-color-text);
+  --dsb-color-bg-1: var(--dsb-dark-color-bg-1);
+  --dsb-color-bg-2: var(--dsb-dark-color-bg-2);
+}
+
+/* If prefers-color-scheme is dark and html does not have 'light' class */
+/* @media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    color-scheme: dark;
+    --dsb-color-text: var(--dsb-dark-color-text);
+    --dsb-color-bg-1: var(--dsb-dark-color-bg-1);
+    --dsb-color-bg-2: var(--dsb-dark-color-bg-2);
+  }
+} */
+
+/*
+  Background color classes
+*/
+.dsb-bg-primary { background-color: var(--dsb-color-primary); }
+.dsb-bg-secondary { background-color: var(--dsb-color-secondary); }
+.dsb-bg-accent { background-color: var(--dsb-color-accent); }
+.dsb-bg-dark { background-color: var(--dsb-color-dark); }
+.dsb-bg-positive { background-color: var(--dsb-color-positive); }
+.dsb-bg-negative { background-color: var(--dsb-color-negative); }
+.dsb-bg-warning { background-color: var(--dsb-color-warning); }
+.dsb-bg-info { background-color: var(--dsb-color-info); }
+.dsb-bg-1 { background-color: var(--dsb-color-bg-1); }
+.dsb-bg-2 { background-color: var(--dsb-color-bg-2)!important; }
+
+/*
+  Text color classes
+*/
+.dsb-color-primary { color: var(--dsb-color-primary); }
+.dsb-color-secondary { color: var(--dsb-color-secondary); }
+.dsb-color-accent { color: var(--dsb-color-accent); }
+.dsb-color-dark { color: var(--dsb-color-dark); }
+.dsb-color-positive { color: var(--dsb-color-positive); }  
+.dsb-color-negative { color: var(--dsb-color-negative); }
+.dsb-color-warning { color: var(--dsb-color-warning); }
+.dsb-color-info { color: var(--dsb-color-info); }
+.dsb-color-text { color: var(--dsb-color-text); }
+.dsb-color-bg-1 { color: var(--dsb-color-bg-1); }
+.dsb-color-bg-2 { color: var(--dsb-color-bg-2); }

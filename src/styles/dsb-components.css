@@ -1,0 +1,75 @@
+/**
+  DSB Container
+  Based on the Bootstrap container class
+  ref: https://getbootstrap.com/docs/5.0/layout/containers/
+*/
+.dsb-container {
+  padding-top: var(--dsb-spacing-md);
+  padding-right: var(--dsb-spacing-md);
+  padding-left: var(--dsb-spacing-md);
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .dsb-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .dsb-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .dsb-container {
+    width: 1170px;
+  }
+}
+@media (min-width: 1500px) {
+  .dsb-container {
+    width: 1400px;
+  }
+}
+
+/**
+  DSB Bar
+  A toolbar/row with a gap
+  Usefull for placing elements horizontaly next to each other
+*/
+.dsb-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--dsb-spacing-md);
+}
+
+/**
+  DSB Col
+  A column with a gap
+  Useful for placing inputs in a column
+*/
+.dsb-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dsb-spacing-md);
+}
+
+/**
+  DSB Logo
+  The logo changes colors based on light or dark mode
+*/
+.dsb-logo {
+  background-color: var(--dsb-color-text)!important;
+  mask-image: url('../assets/images/dsb-logo-sort.svg');
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  aspect-ratio: 90/38;
+}
+
+.dsb-logo-horizontal {
+  background-color: var(--dsb-color-text)!important;
+  mask-image: url('../assets/images/dsb-logo-hor-sort.svg');
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  aspect-ratio: 600/144;
+}

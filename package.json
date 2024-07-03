@@ -1,0 +1,17 @@
+{
+  "name": "@dsb-norge/dsb-webkit",
+  "version": "1.0.0",
+  "description": "A collection of common DSB frontend functionality",
+  "exports": {
+    "./dsb-styles.css": "./src/styles/dsb-styles.css",
+    "./quasar-variables.sass": "./src/frameworks/quasar/quasar-variables.sass",
+    "./locales/i18n.utils.ts": "./src/locales/i18n.utils.ts",
+    "./locales/nb-NO.json": "./src/locales/nb-NO.json"
+  },
+  "author": "Direktoratet for samfunnssikkerhet og beredskap",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/roboto": "5.0.13",
+    "@fontsource/roboto-slab": "5.0.20"
+  }
+}

@@ -1,0 +1,99 @@
+/*
+  Import fonts
+*/
+@import url("@fontsource/roboto");
+@import url("@fontsource/roboto-slab");
+
+/*
+  Headings
+*/
+/* Set font for all headers */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: 0;
+}
+
+div, span {
+  font-family: "Roboto";
+}
+
+/* Set font for other text */
+p, b, i {
+  font-family: "Roboto";
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0!important; /* Had to set important, something is overriding it otherwise */
+}
+
+h1, .text-h1 {
+  font-size: 3rem !important;
+  font-weight: 400;
+  line-height: 1.05 !important;
+  letter-spacing: normal !important;
+  font-family: "Roboto Slab", serif;
+  text-transform: none !important;
+}
+
+h2, .text-h2 {
+  font-size: 2.125rem !important;
+  font-weight: 400;
+  line-height: 1.175 !important;
+  letter-spacing: 0.0073529412em !important;
+  font-family: "Roboto Slab", serif;
+  text-transform: none !important;
+}
+
+h3, .text-h3 {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  line-height: 1.333 !important;
+  letter-spacing: normal !important;
+  font-family: "Roboto Slab", serif;
+  text-transform: none !important;
+}
+
+h4, .text-h4 {
+  font-size: 1.25rem !important;
+  font-weight: 500;
+  line-height: 1.6 !important;
+  letter-spacing: 0.0125em !important;
+  font-family: "Roboto Slab", serif;
+  text-transform: none !important;
+}
+
+h5, .text-subtitle-1 {
+  font-size: 1rem !important;
+  font-weight: normal;
+  line-height: 1.75 !important;
+  letter-spacing: 0.009375em !important;
+  font-family: "Roboto Slab", serif;
+  text-transform: none !important;
+}
+
+h6, .text-subtitle-2 {
+  font-size: 0.875rem !important;
+  font-weight: 500;
+  line-height: 1.6 !important;
+  letter-spacing: 0.0071428571em !important;
+  font-family: "Roboto Slab", serif;
+  text-transform: none !important;
+}
+
+.text-caption {
+  font-size: 0.75rem !important;
+  font-weight: 400;
+  line-height: 1.667;
+  letter-spacing: 0.0333333333em !important;
+  font-family: "Roboto", sans-serif;
+  text-transform: none !important;
+}
+
+.text-overline {
+  font-size: 0.75rem !important;
+  font-weight: 500;
+  line-height: 2.667;
+  letter-spacing: 0.1666666667em !important;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase !important;
+}
