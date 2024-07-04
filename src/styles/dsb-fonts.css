@@ -19,7 +19,7 @@ div, span {
 }
 
 /* Set font for other text */
-p, b, i {
+p, b, i, a {
   font-family: "Roboto";
   font-size: 1rem;
   margin-top: 0;
@@ -27,15 +27,6 @@ p, b, i {
 }
 
 h1, .text-h1 {
-  font-size: 3rem !important;
-  font-weight: 400;
-  line-height: 1.05 !important;
-  letter-spacing: normal !important;
-  font-family: "Roboto Slab", serif;
-  text-transform: none !important;
-}
-
-h2, .text-h2 {
   font-size: 2.125rem !important;
   font-weight: 400;
   line-height: 1.175 !important;
@@ -44,7 +35,7 @@ h2, .text-h2 {
   text-transform: none !important;
 }
 
-h3, .text-h3 {
+h2, .text-h2 {
   font-size: 1.5rem !important;
   font-weight: 400;
   line-height: 1.333 !important;
@@ -53,7 +44,7 @@ h3, .text-h3 {
   text-transform: none !important;
 }
 
-h4, .text-h4 {
+h3, .text-h3 {
   font-size: 1.25rem !important;
   font-weight: 500;
   line-height: 1.6 !important;
@@ -62,11 +53,20 @@ h4, .text-h4 {
   text-transform: none !important;
 }
 
-h5, .text-subtitle-1 {
+h4, .text-h4 {
   font-size: 1rem !important;
   font-weight: normal;
   line-height: 1.75 !important;
   letter-spacing: 0.009375em !important;
+  font-family: "Roboto Slab", serif;
+  text-transform: none !important;
+}
+
+h5, .text-subtitle-1 {
+  font-size: 0.875rem !important;
+  font-weight: 500;
+  line-height: 1.6 !important;
+  letter-spacing: 0.0071428571em !important;
   font-family: "Roboto Slab", serif;
   text-transform: none !important;
 }
