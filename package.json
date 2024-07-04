@@ -1,6 +1,6 @@
 {
   "name": "@dsb-norge/dsb-webkit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of common DSB frontend functionality",
   "exports": {
     "./dsb-styles.css": "./src/styles/dsb-styles.css",
