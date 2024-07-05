@@ -2,7 +2,7 @@
 A collection of common DSB frontend functionality
 
 ## Installation
-1. ```npm i @dsb-norge/dsb-webkit```
+1. ```npm i @dsb-norge/dsb-webkit --save-dev```
 1. Add `"resolveJsonModule": true` to `compilerOptions` in `tsconfig.json`
 
 ## Styles
