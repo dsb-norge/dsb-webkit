@@ -3,8 +3,7 @@
   transition: background 0.3s, color 0.05s, opacity 0.3s;
 }
 
-button:not(.q-btn) {
-  /* Remove default button styles */
+button:not(.q-btn, .q-icon) {
   all: unset;
   border: none;
   background: none;
@@ -23,7 +22,7 @@ html, body {
   margin: 0;
 }
 
-a:not(.no-override, .q-btn) {
+a:not(.no-override, .q-btn, .q-icon) {
   text-decoration: none;
   color: var(--dsb-color-accent);
 }
