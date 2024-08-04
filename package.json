@@ -18,7 +18,7 @@
     "url": "git+ssh://git@github.com:dsb-norge/dsb-webkit.git"
   },
   "dependencies": {
-    "@fontsource/roboto": "5.0.13",
+    "@fontsource/roboto": "5.0.14",
     "@fontsource/roboto-slab": "5.0.20"
   }
 }
