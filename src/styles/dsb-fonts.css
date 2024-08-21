@@ -9,20 +9,21 @@
 */
 /* Set font for all headers */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0;
   margin: 0;
 }
 
 div, span {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 /* Set font for other text */
 p, b, i, a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   margin-top: 0;
+}
+
+p, b, i, a:not(.no-override, .q-btn, .q-icon) {
   margin-bottom: 0!important; /* Had to set important, something is overriding it otherwise */
 }
 
