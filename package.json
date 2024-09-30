@@ -6,7 +6,8 @@
     "./dsb-styles.css": "./src/styles/dsb-styles.css",
     "./quasar-variables.sass": "./src/frameworks/quasar/quasar-variables.sass",
     "./locales/i18n.utils.ts": "./src/locales/i18n.utils.ts",
-    "./locales/nb-NO.json": "./src/locales/nb-NO.json"
+    "./locales/nb-NO.json": "./src/locales/nb-NO.json",
+    "./locales/en-GB.json": "./src/locales/en-GB.json"
   },
   "author": "Direktoratet for samfunnssikkerhet og beredskap",
   "license": "MIT",
